@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { fetchCategories, fetchProducts } from './api';
-import ProductList from './ProductSelect';
+import ProductList from './ProductList';
 import "./App.css";
 
 const App = () => {
