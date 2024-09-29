@@ -9,7 +9,7 @@ export const fetchCategories = async () => {
 
 export const fetchProducts = async (category, skip) => {
     const response = await axios.get(API_URL, {
-        params: { category, skip, limit: 10 },
+        params: { category, skip, limit: 30 },
     });
     return response.data;
 };
